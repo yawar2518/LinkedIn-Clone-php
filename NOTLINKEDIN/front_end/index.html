@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to NotLinkedIn</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: url('images/bg.png') no-repeat center center fixed;
+            background-size: cover;
+        }
+        header {
+            background: rgba(0, 115, 177, 0.8);
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 2rem;
+            text-align: center;
+        }
+        .profile-highlight {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .profile {
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 8px;
+            overflow: hidden;
+            width: 300px;
+            text-align: left;
+        }
+        .profile img {
+            width: 100%;
+            height: auto;
+        }
+        .profile-content {
+            padding: 1rem;
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 0.01rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to NotLinkedIn</h1>
+        <nav>
+            <a href="signup.html">Sign Up</a>
+            <a href="login.html">Login</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Your Professional Network Awaits</h2>
+        <p>Connect with startups, find jobs, and grow your career.</p>
+        
+        <section class="profile-highlight">
+            <div class="profile">
+                <img src="images/1.jpg" alt="Professional 1">
+                <div class="profile-content">
+                    <h3>John Doe</h3>
+                    <p>Software Engineer at TechCorp</p>
+                    <p>"Building the future one line of code at a time."</p>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images/2.jpg" alt="Professional 2">
+                <div class="profile-content">
+                    <h3>Jane Smith</h3>
+                    <p>Marketing Manager at MarketLead</p>
+                    <p>"Connecting people with the brands they love."</p>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="images/3.jpg" alt="Professional 3">
+                <div class="profile-content">
+                    <h3>Ali Khan</h3>
+                    <p>Data Scientist at DataViz</p>
+                    <p>"Turning data into actionable insights."</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 NotLinkedIn</p>
+    </footer>
+</body>
+</html>
